@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lime-green: #3EFFCD;
+  --color-gradient-blue: #5F86F2;
+  --color-gradient-purple: #443D97;
+
+  --color-gray-one: #EDEDED;
+  --color-gray-two: #D8D8D8;
+  --color-gray-three: #959595;
+  --color-gray-four: #707070;
+  --color-gray-five: #3F3F3F;
+  --color-gray-six: #2C2C2C;
+
+  --font-rubik: 'Rubik', sans-serif;
+
+  --text-preset-1: 32px;
+  --text-preset-1--line-height: 100%;
+  --text-preset-1--letter-spacing: -0.25px;
+  --text-preset-1--font-weight: 500;
+
+  --text-preset-2: 26px;
+  --text-preset-2--line-height: 100%;
+  --text-preset-2--letter-spacing: -0.25px;
+  --text-preset-2--font-weight: 500;
+
+  --text-preset-3: 20px;
+  --text-preset-3--line-height: 100%;
+  --text-preset-3--letter-spacing: -0.25px;
+  --text-preset-3--font-weight: 500;
+
+  --text-preset-4: 18px;
+  --text-preset-4--line-height: 100%;
+  --text-preset-4--letter-spacing: 0px;
+  --text-preset-4--font-weight: 400;
+
+  --text-preset-5: 12px;
+  --text-preset-5--line-height: 100%;
+  --text-preset-5--letter-spacing: 1.75px;
+  --text-preset-5--font-weight: 700;
+
+  --text-preset-6: 10px;
+  --text-preset-6--line-height: 100%;
+  --text-preset-6--letter-spacing: 1.75px;
+  --text-preset-6--font-weight: 700;
+
+  --spacing-100: 8px;
+  --spacing-200: 16px; 
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-600: 488px;
+  --spacing-1500: 120px;
+}
