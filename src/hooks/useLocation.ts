@@ -7,16 +7,16 @@ interface LocationStates {
     cleanIpInput: boolean,
     setInfo: (info: LocationProps[]) => void,
     setIpInput: (ipInput: string) => void,
-    setCleanIpInput: (cleanIpInput: boolean) => void
+    setCleanIpInput: (cleanIpInput: boolean) => void,
 }
 
 const useLocation = create<LocationStates>((set) => ({
-    info: [] as LocationProps[],
+    info: [],
     ipInput: "",
     cleanIpInput: false,
     setInfo: (info: LocationProps[]) => set({ info }),
     setIpInput: (ipInput: string) => set({ ipInput }),
-    setCleanIpInput: (cleanIpInput: boolean) => set({  cleanIpInput })
+    setCleanIpInput: (cleanIpInput: boolean) => set({  cleanIpInput }),
 }));
 
 export default useLocation

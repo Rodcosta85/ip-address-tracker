@@ -1,20 +1,17 @@
-export interface asProps {
-    asn: number,
-    domain: string,
-    name: string,
-    route: string,
-    type: string
-}
-
-export interface LocationObjProps {
-    country: string,
-    region: string,
-    timezone: string
-}
-
 export interface LocationProps {
-    as: asProps,
-    ip: string,
+    as: string,
+    city: string,
+    country: string,
+    countryCode: string
     isp: string,
-    location: LocationObjProps
+    lat: number,
+    lon: number,
+    offset: number
+    org: string,
+    query: string // this is the IP
+    region: string,
+    regionName: string,
+    status: string,
+    timezone: string,
+    zip: string
 }

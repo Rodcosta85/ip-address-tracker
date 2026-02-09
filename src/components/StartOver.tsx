@@ -12,13 +12,13 @@ const startOver: React.FC<StartOverProps> = ({ cleanField }) => {
     return (
         <button
             onClick={cleanField}
-            className={`absolute -bottom-10 left-[10%] 
+            className={` 
             transition duration-200 ease-in-out 
             flex items-center gap-2
-            text-preset-5 font-rubik text-white
-            ${cleanIpInput ? 'opacity-100' : 'opacity-0'}`
+            text-preset-4 font-rubik text-white
+            ${cleanIpInput ? 'flex' : 'none'}`
             }>
-            start over with your search?
+            start over with your search
             <img src={Close} alt="An X" />
         </button>
     )
